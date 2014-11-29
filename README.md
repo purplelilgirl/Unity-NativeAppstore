@@ -7,6 +7,7 @@ iOS - uses SKStoreProductViewController when its available, defaults to OpenURL
 
 Android - uses Uri Intent
 
+
 Project Structure:
 
 UnityProject - Unity Project folder, includes NativeappstoreHandler, NativeAppstoreTestScene
