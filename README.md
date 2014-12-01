@@ -3,9 +3,12 @@ Unity-NativeAppstore
 
 Unity Plugin that allows opening of an app in the iOS and Android Appstore
 
-iOS - uses SKStoreProductViewController when its available, defaults to OpenURL
+iOS 
+- uses SKStoreProductViewController when its available, defaults to OpenURL
+- don't forget to include StoreKit.framework in Build Phases Link Binary with Libraries
 
-Android - uses Uri Intent
+Android 
+- uses Uri Intent
 
 
 Project Structure:
