@@ -13,12 +13,12 @@ public class AppstoreHandler : Singleton<AppstoreHandler>
 	private static AndroidJavaObject jo;
 	#endif
 
-	void Start()
+	void Awake()
 	{
 		if(!Application.isEditor)
 		{
 			#if UNITY_ANDROID
-			jo = new AndroidJavaObject("com.purplelilgirl.nativeandroid.AppStore");
+			jo = new AndroidJavaObject("com.purplelilgirl.nativeappstore.NativeAppstore");
 			#endif
 			
 		}	else
