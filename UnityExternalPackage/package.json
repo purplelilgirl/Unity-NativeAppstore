@@ -1,0 +1,8 @@
+{
+    "name": "com.valeriosevilla.nativeappstore",
+    "displayName": "Native AppStore",
+    "version": "1.0",
+    "documentationUrl": "https://github.com/ValerioSevilla/Unity-NativeAppstore",
+    "licensesUrl": "https://github.com/ValerioSevilla/Unity-NativeAppstore/blob/main/LICENSE",
+    "description": "Unity Plugin that allows to open an app in the iOS AppStore and Google PlayStore."
+  }
